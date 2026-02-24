@@ -1,0 +1,20 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:4000/tasks
+    depends_on:
+      - server
+
+  server:
+    image: node:18-alpine
+    working_dir: /data
+    volumes:
+      - ./db.json:/data/db.json
+    ports:
+      - "4000:4000"
+    command: npx json-server --watch db.json --port 4000 --host 0.0.0.0

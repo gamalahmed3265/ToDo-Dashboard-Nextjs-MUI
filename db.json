@@ -1,0 +1,382 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design Kanban Board",
+      "description": "Create a premium UI with MUI and dnd-kit.",
+      "column": "review",
+      "priority": "medium"
+    },
+    {
+      "id": "2",
+      "title": "Setup React Query",
+      "description": "Configure QueryClient and Providers.",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "3",
+      "title": "Implement Drag and Drop",
+      "description": "Use dnd-kit for sorting tasks between columns.",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "375b",
+      "title": "read doc for nextjs interview",
+      "description": "SSR (Server Side Rendering)\n\nSSG (Static Site Generation)\n\nISR (Incremental Static Regeneration)\n\nReact Server Components\n\nFile-based Routing\n\nAPI Routes\n\nMiddleware\n\nEdge Runtime",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "ec4a",
+      "title": "read doc for nextjs interview to stdu",
+      "description": "SSR (Server Side Rendering)\n\nSSG (Static Site Generation)\n\nISR (Incremental Static Regeneration)\n\nReact Server Components\n\nFile-based Routing\n\nAPI Routes\n\nMiddleware\n\nEdge Runtime",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "4",
+      "title": "Setup Authentication",
+      "description": "Integrate NextAuth.js with credentials provider.",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "5",
+      "title": "Create Login Page UI",
+      "description": "Build form with email and password fields using MUI.",
+      "column": "done",
+      "priority": "high"
+    },
+    {
+      "id": "6",
+      "title": "Create Register Page UI",
+      "description": "Build form with validation for new users.",
+      "column": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "7",
+      "title": "Implement Protected Routes",
+      "description": "Ensure only authenticated users can access dashboard.",
+      "column": "backlog",
+      "priority": "critical"
+    },
+    {
+      "id": "8",
+      "title": "Setup Database",
+      "description": "Initialize PostgreSQL instance on Supabase.",
+      "column": "done",
+      "priority": "high"
+    },
+    {
+      "id": "9",
+      "title": "Define User Schema",
+      "description": "Create Prisma schema for Users and Sessions.",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "11",
+      "title": "Create API Endpoint /tasks",
+      "description": "CRUD operations for task entities.",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "12",
+      "title": "Implement Dark Mode Toggle",
+      "description": "Use CSS variables and context for theming.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "13",
+      "title": "Add Responsive Navbar",
+      "description": "Mobile hamburger menu and desktop links.",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "14",
+      "title": "Create Footer Component",
+      "description": "Copyright info and social links.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "15",
+      "title": "Setup ESLint Config",
+      "description": "Configure rules for React and TypeScript.",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "16",
+      "title": "Setup Prettier Config",
+      "description": "Enforce consistent code formatting.",
+      "column": "done",
+      "priority": "low"
+    },
+    {
+      "id": "17",
+      "title": "Write Unit Tests for Utils",
+      "description": "Test date formatting and helper functions.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "18",
+      "title": "Write Integration Tests for API",
+      "description": "Test endpoints using Jest and Supertest.",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "19",
+      "title": "Setup CI/CD Pipeline",
+      "description": "GitHub Actions for linting and testing.",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "20",
+      "title": "Deploy to Vercel",
+      "description": "Connect repo and configure build settings.",
+      "column": "backlog",
+      "priority": "critical"
+    },
+    {
+      "id": "21",
+      "title": "Configure Domain DNS",
+      "description": "Point A records to Vercel IP.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "22",
+      "title": "Add Google Analytics",
+      "description": "Track page views and user events.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "23",
+      "title": "Add Sentry Error Tracking",
+      "description": "Monitor production errors and performance.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "24",
+      "title": "Optimize Images",
+      "description": "Use next/image for automatic optimization.",
+      "column": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "25",
+      "title": "Implement Lazy Loading",
+      "description": "Dynamic imports for heavy components.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "26",
+      "title": "Add Loading Skeletons",
+      "description": "Show placeholders while data fetches.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "27",
+      "title": "Create Error Boundary",
+      "description": "Catch React errors and show fallback UI.",
+      "column": "review",
+      "priority": "high"
+    },
+    {
+      "id": "28",
+      "title": "Setup Zod Validation",
+      "description": "Schema validation for API inputs.",
+      "column": "done",
+      "priority": "high"
+    },
+    {
+      "id": "29",
+      "title": "Create Custom Hooks",
+      "description": "useFetch, useAuth, useLocalStorage.",
+      "column": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "30",
+      "title": "Implement Search Functionality",
+      "description": "Filter tasks by title or description.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "31",
+      "title": "Add Filtering Logic",
+      "description": "Filter by priority or column status.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "32",
+      "title": "Add Sorting Logic",
+      "description": "Sort by date created or priority level.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "33",
+      "title": "Create Notification System",
+      "description": "Toast notifications for actions.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "34",
+      "title": "Setup Email Service",
+      "description": "Configure Resend for transactional emails.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "35",
+      "title": "Create Welcome Email Template",
+      "description": "HTML email sent upon registration.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "36",
+      "title": "Implement Password Reset Flow",
+      "description": "Email link to reset forgotten passwords.",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "37",
+      "title": "Add Social Login (Google)",
+      "description": "OAuth integration with Google Provider.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "38",
+      "title": "Add Social Login (GitHub)",
+      "description": "OAuth integration with GitHub Provider.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "39",
+      "title": "Create User Profile Page",
+      "description": "View and edit user details.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "40",
+      "title": "Allow Avatar Upload",
+      "description": "Upload image to profile using S3.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "41",
+      "title": "Setup S3 Bucket for Assets",
+      "description": "Configure AWS S3 for file storage.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "42",
+      "title": "Implement Rate Limiting",
+      "description": "Prevent API abuse using redis.",
+      "column": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "43",
+      "title": "Add CORS Configuration",
+      "description": "Allow specific origins for API access.",
+      "column": "done",
+      "priority": "high"
+    },
+    {
+      "id": "44",
+      "title": "Write API Documentation",
+      "description": "Swagger UI for endpoint details.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "45",
+      "title": "Create Admin Dashboard",
+      "description": "View all users and system stats.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "46",
+      "title": "Add Role Based Access Control",
+      "description": "Admin vs User permissions.",
+      "column": "backlog",
+      "priority": "critical"
+    },
+    {
+      "id": "47",
+      "title": "Implement Audit Logging",
+      "description": "Track critical user actions.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "48",
+      "title": "Setup Monitoring",
+      "description": "Prometheus and Grafana integration.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "49",
+      "title": "Create Landing Page",
+      "description": "Marketing page with features and CTA.",
+      "column": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "50",
+      "title": "Add SEO Metadata",
+      "description": "Dynamic titles and descriptions per page.",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "51",
+      "title": "Generate Sitemap",
+      "description": "XML sitemap for search engines.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "52",
+      "title": "Setup Robots.txt",
+      "description": "Define crawling rules for bots.",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "53",
+      "title": "Perform Accessibility Audit",
+      "description": "Ensure WCAG 2.1 compliance.",
+      "column": "review",
+      "priority": "high"
+    }
+  ]
+}
