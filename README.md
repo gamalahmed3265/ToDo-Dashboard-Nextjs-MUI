@@ -109,13 +109,33 @@ _The dashboard will be available at [http://localhost:3000](http://localhost:300
 - `screens/`: Application screenshots.
 - `Dockerfile` & `docker-compose.yml`: Containerization configuration.
 
-## 🌐 Deployment
+## 🌐 Deployment & Architecture
 
-To deploy this project to production:
+This project is fully compatible with **Vercel**.
 
-1. **Frontend**: Deploy the Next.js app to **Vercel**.
-2. **Backend**: Host `json-server` on **Render** or **Railway**.
-3. **Connection**: Set `NEXT_PUBLIC_API_URL` in Vercel settings to your hosted Backend URL.
+1. **Unified Stack**: The API has been migrated from `json-server` to native **Next.js API Routes** (`/api/tasks`).
+2. **Persistence**: In this demo, tasks are stored in `db.json`.
+3. **Deploy to Vercel**: simply connect your GitHub repository to Vercel and it will work out of the box.
 
-> [!TIP]
-> Since Vercel is serverless, it cannot run `json-server` natively. Using a separate host for the API is the best way to keep the mock functionality live.
+> [!IMPORTANT]
+> Because Vercel is serverless, changes to `db.json` are temporary. For a real production app with permanent storage, you should replace the file-based logic in `app/api/tasks/route.ts` with a database client like Prisma or Supabase.
+
+## 🚀 How to Run Locally
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Run the Development Server
+
+```bash
+npm run dev
+```
+
+_The dashboard will be available at [http://localhost:3000](http://localhost:3000). The API is handled internally by Next.js._
+
+---
+
+_Note: The `docker-compose.yml` and `Dockerfile` are still available for containerized development if preferred._

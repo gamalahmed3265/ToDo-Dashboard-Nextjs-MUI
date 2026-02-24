@@ -7,8 +7,7 @@ import {
 import axios from "axios";
 import { Task, CreateTaskInput, UpdateTaskInput, TaskColumn } from "../types";
 
-const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/tasks";
+const API_URL = "/api/tasks";
 
 /**
  * Interface for json-server v1 pagination response
