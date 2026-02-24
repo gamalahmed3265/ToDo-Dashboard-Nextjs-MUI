@@ -108,3 +108,14 @@ _The dashboard will be available at [http://localhost:3000](http://localhost:300
 - `db.json`: Local database file.
 - `screens/`: Application screenshots.
 - `Dockerfile` & `docker-compose.yml`: Containerization configuration.
+
+## 🌐 Deployment
+
+To deploy this project to production:
+
+1. **Frontend**: Deploy the Next.js app to **Vercel**.
+2. **Backend**: Host `json-server` on **Render** or **Railway**.
+3. **Connection**: Set `NEXT_PUBLIC_API_URL` in Vercel settings to your hosted Backend URL.
+
+> [!TIP]
+> Since Vercel is serverless, it cannot run `json-server` natively. Using a separate host for the API is the best way to keep the mock functionality live.
